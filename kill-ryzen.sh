@@ -1,7 +1,7 @@
 #!/bin/bash
 export LANG=C
 
-USE_RAMDISK=true
+USE_RAMDISK=false
 CLEAN_ON_EXIT=false
 NPROC=$1
 TPROC=$2
