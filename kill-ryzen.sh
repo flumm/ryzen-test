@@ -22,6 +22,8 @@ if which apt-get &>/dev/null; then
  sudo apt-get install build-essential
 elif which dnf &>/dev/null; then
  sudo dnf install -y @development-tools
+elif which pacman &>/dev/null; then
+ sudo pacman -S --needed base-devel
 else
  exit 1
 fi
